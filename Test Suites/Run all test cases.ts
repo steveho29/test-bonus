@@ -17,16 +17,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Thiện Login</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>bfbf455e-68b9-4046-a5a8-4b82a214568a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateGroupchatPublic</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d0c7476f-6fa7-4186-b2b3-d45b546ec8ce</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/InvitetoSpace1</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
