@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Verify with another device</name>
+   <name>div_Preview</name>
    <tag></tag>
-   <elementGuidId>bdfaeecd-dc01-4301-b11a-d6f7cf151f01</elementGuidId>
+   <elementGuidId>4c54a32b-04b5-468b-af0e-f9c2c823fd80</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/section/div/div[1]/div[2]/div/div/div/div[1]/div</value>
+         <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div[2]/div/ol/div/div/div[4]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_AccessibleButton_hasKind.mx_AccessibleButton_kind_primary</value>
+         <value>div.mx_RoomDirectory_preview > div.mx_AccessibleButton.mx_AccessibleButton_hasKind.mx_AccessibleButton_kind_secondary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,55 +42,69 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mx_AccessibleButton mx_AccessibleButton_hasKind mx_AccessibleButton_kind_primary</value>
+      <value>mx_AccessibleButton mx_AccessibleButton_hasKind mx_AccessibleButton_kind_secondary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Verify with another device</value>
+      <value>Preview</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthPage_modal&quot;]/div[@class=&quot;mx_AuthPage_modalContent&quot;]/div[@class=&quot;mx_CompleteSecurityBody&quot;]/div[@class=&quot;mx_CompleteSecurity_body&quot;]/div[1]/div[@class=&quot;mx_CompleteSecurity_actionRow&quot;]/div[@class=&quot;mx_AccessibleButton mx_AccessibleButton_hasKind mx_AccessibleButton_kind_primary&quot;]</value>
+      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper mx_RoomDirectory_dialogWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_RoomDirectory_dialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_RoomDirectory&quot;]/div[@class=&quot;mx_RoomDirectory_list&quot;]/div[@class=&quot;mx_AutoHideScrollbar mx_ScrollPanel mx_RoomDirectory_tableWrapper&quot;]/div[@class=&quot;mx_RoomView_messageListWrapper&quot;]/ol[@class=&quot;mx_RoomView_MessageList&quot;]/div[@class=&quot;mx_RoomDirectory_table&quot;]/div[@class=&quot;mx_RoomDirectory_listItem&quot;]/div[@class=&quot;mx_RoomDirectory_preview&quot;]/div[@class=&quot;mx_AccessibleButton mx_AccessibleButton_hasKind mx_AccessibleButton_kind_secondary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div</value>
+      <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div[2]/div/ol/div/div/div[4]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify this device'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#HCMUS:matrix.org'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset all'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Katalon testing'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Verify with another device']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Room for test case 19'])[1]/preceding::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='katalon'])[1]/preceding::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Preview']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div/div</value>
+      <value>//div/div/div[4]/div</value>
    </webElementXpaths>
 </WebElementEntity>

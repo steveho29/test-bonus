@@ -17,21 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://127.0.0.1:8080/')
+WebUI.setText(findTestObject('Object Repository/google/Page_Google/input__q'), 'minh duc')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'thien1510')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'KZc6Zw4dZ8jytUnXvokUkA==')
-
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with another device'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify other device_mx_AccessibleButton_7edffc'))
+WebUI.sendKeys(findTestObject('Object Repository/google/Page_Google/input__q'), Keys.chord(Keys.ENTER))
 
 WebUI.closeBrowser()
 
